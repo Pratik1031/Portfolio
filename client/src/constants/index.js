@@ -1,76 +1,54 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/prescripto.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a software engineer with nearly a year of experience in developing robust and scalable web applications. Proficient in the MERN stack, Java, and MySQL, I focus on delivering effective solutions that drive business growth and enhance user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a versatile full stack developer with a strong focus on creating efficient and user-friendly web applications. With nearly a year of experience as a software engineer, I have worked with various technologies, including the MERN stack, Java, and MySQL. My journey in web development began with a keen interest in understanding how things work and has evolved into a career marked by continuous learning and adaptation to new challenges. I excel in collaborative environments and enjoy tackling complex problems to deliver high-quality solutions. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
+    year: "Feb,2024 - Present",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Grawlix Software Private Limited.",
+    description: `Collaborated within a team to develop a robust staffing application, "Talboard," utilizing Node.js, Express.js, and MySQL, with EJS for the front end.`,
+    technologies: ["Javascript", "Node.js", "Express.js", "MySQL"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Prescripto ",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Prescripto is a user-friendly appointment booking application designed to streamline the scheduling process for both service providers and clients. Built using the MERN (MongoDB, Express.js, React, Node.js) stack, Prepscripto aims to provide a seamless and efficient experience for users looking to book, manage, and track appointments in various domains, such as healthcare, beauty, and professional services",
+    technologies: ["React", "Express.js", "RazorPay", "Node.js", "MongoDB"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React.Js", "CSS", "React", "TailwindCss"],
   },
   {
-    title: "Blogging Platform",
+    title: "WealthWise",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "WealthWise is your all-in-one financial companion, designed to simplify money management and empower users to take control of their finances. With features like budget tracking, expense categorization, and goal setting, WealthWise helps you visualize your financial health in real-time. The app offers personalized insights, spending trends, and investment tracking, making it easy to plan for the future. Whether you’re saving for a vacation, paying off debt, or investing for retirement, WealthWise provides the tools and knowledge you need to make informed decisions and achieve your financial goals.",
+    technologies: [
+      "React.js",
+      "Typescript",
+      "Node.js",
+      "MongoDB",
+      "Machine learning",
+      "MUI",
+    ],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Kharadi ,Pune - 411014",
+  phoneNo: "+91 7720937578 ",
+  email: "pratikdahekar7@gmail.com",
 };
